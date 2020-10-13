@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.10.1](https://github.com/react-navigation/react-navigation/compare/@react-navigation/drawer@5.10.0...@react-navigation/drawer@5.10.1) (2020-10-13)
+
+
+### Bug Fixes
+
+* fix ([e7dfcbc](https://github.com/react-navigation/react-navigation/commit/e7dfcbc7187e610d775e00ac8b11f27b76884c55))
+
+
+
+
+
 # [5.10.0](https://github.com/react-navigation/react-navigation/compare/@react-navigation/drawer@5.9.3...@react-navigation/drawer@5.10.0) (2020-10-13)
 
 
