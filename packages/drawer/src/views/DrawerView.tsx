@@ -82,6 +82,7 @@ export default function DrawerView({
   gestureHandlerProps,
   minSwipeDistance,
   sceneContainerStyle,
+  customHandleDrawerClose,
 }: Props) {
   const [loaded, setLoaded] = React.useState([state.routes[state.index].key]);
   const dimensions = useWindowDimensions();
@@ -120,14 +121,24 @@ export default function DrawerView({
       // This way we can make sure that the subscription is added as late as possible
       // This will make sure that our handler will run first when back button is pressed
       subscription = BackHandler.addEventListener('hardwareBackPress', () => {
-        handleDrawerClose();
+        if (customHandleDrawerClose) {
+          customHandleDrawerClose();
+        } else {
+          handleDrawerClose();
+        }
 
         return true;
       });
     }
 
     return () => subscription?.remove();
-  }, [handleDrawerClose, isDrawerOpen, navigation, state.key]);
+  }, [
+    handleDrawerClose,
+    customHandleDrawerClose,
+    isDrawerOpen,
+    navigation,
+    state.key,
+  ]);
 
   const focusedRouteKey = state.routes[state.index].key;
 

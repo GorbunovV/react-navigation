@@ -86,6 +86,8 @@ export type DrawerNavigationConfig<T = DrawerContentOptions> = {
    * You can pass a custom background color for a drawer or a custom width here.
    */
   drawerStyle?: StyleProp<ViewStyle>;
+
+  customHandleDrawerClose?: () => void;
 };
 
 export type DrawerNavigationOptions = {
