@@ -123,6 +123,7 @@ export default function DrawerView({
       subscription = BackHandler.addEventListener('hardwareBackPress', () => {
         if (customHandleDrawerClose) {
           customHandleDrawerClose();
+          console.log('TEST');
         } else {
           handleDrawerClose();
         }
