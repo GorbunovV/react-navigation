@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.4.13](https://github.com/react-navigation/react-navigation/compare/@react-navigation/routers@5.4.12...@react-navigation/routers@5.4.13) (2020-10-13)
+
+
+### Bug Fixes
+
+* handle pushing a route with duplicate key ([091b2a2](https://github.com/react-navigation/react-navigation/commit/091b2a2038af1097be57a1bb451623d64a1efc92))
+
+
+
+
+
 ## [5.4.12](https://github.com/react-navigation/react-navigation/compare/@react-navigation/routers@5.4.11...@react-navigation/routers@5.4.12) (2020-09-22)
 
 **Note:** Version bump only for package @react-navigation/routers

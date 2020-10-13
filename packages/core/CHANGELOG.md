@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.13.0](https://github.com/react-navigation/react-navigation/compare/@react-navigation/core@5.12.5...@react-navigation/core@5.13.0) (2020-10-13)
+
+
+### Features
+
+* add an unhandled action listener ([#8895](https://github.com/react-navigation/react-navigation/issues/8895)) ([80ff5a9](https://github.com/react-navigation/react-navigation/commit/80ff5a9c543a44fa2fd7ba7fda0598f1b0d52a64))
+
+
+
+
+
 ## [5.12.5](https://github.com/react-navigation/react-navigation/compare/@react-navigation/core@5.12.4...@react-navigation/core@5.12.5) (2020-10-07)
 
 **Note:** Version bump only for package @react-navigation/core

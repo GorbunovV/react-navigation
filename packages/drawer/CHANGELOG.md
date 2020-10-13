@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [5.10.0](https://github.com/react-navigation/react-navigation/compare/@react-navigation/drawer@5.9.3...@react-navigation/drawer@5.10.0) (2020-10-13)
+
+
+### Features
+
+* added customHandleDrawerClose ([928cf1a](https://github.com/react-navigation/react-navigation/commit/928cf1afc8b8d40a3846f1c9434d1a79d2916e49))
+
+
+
+
+
 ## [5.9.3](https://github.com/react-navigation/react-navigation/compare/@react-navigation/drawer@5.9.2...@react-navigation/drawer@5.9.3) (2020-10-07)
 
 
